@@ -1,0 +1,52 @@
+#wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+
+#header-content {
+   width: 100%;
+   position: fixed;
+   top: 0;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+#map {
+    position: relative;
+    height: 50vh;
+}
+
+.location {
+    background: lightgreen;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    opacity: 90%;
+    position: absolute;
+
+}
+
+#houston {
+    top: 62vh;
+    left: 50vw;
+}
+ 
+#new-york {
+    top: 43vh;
+    left: 64.5vw;
+}
+
+#la {
+  top: 53vh;
+  left: 32.5vw;
+}
+
+#detroit {
+    top: 44.5vh;
+    left: 58.5vw;
+}
