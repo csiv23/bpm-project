@@ -1,13 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+#header {
+    position: fixed;
+    top: 0;
+}
 
 #header-content {
     width: 100%;
-    height: 50px;
+    height: 5vh;
     position: fixed;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     z-index: 2;
+    outline: solid;
+    background-color: white;
+}
+
+#wrapper {
+    height: 85vh;
+    width: 100vw;
+    margin-top: 5%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+.text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.references {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: slateblue;
 }
 
 #map-content {
@@ -18,8 +53,8 @@
 }
 
 #map {
-    margin-top: 200px;
-    height: 1000px;
+    margin-top: 20%;
+    height: 800px;
 }
 
 .location {
@@ -38,21 +73,21 @@
 }
 
 #houston {
-    top: 820px;
-    left: 670px;
+    top: 720px;
+    left: 530px;
 }
 
 #new-york {
-    top: 440px;
-    left: 1060px;
+    top: 385px;
+    left: 840px;
 }
 
 #la {
-    top: 660px;
-    left: 210px;
+    top: 590px;
+    left: 180px;
 }
 
 #detroit {
-    top: 460px;
-    left: 900px;
+    top: 410px;
+    left: 710px;
 }
