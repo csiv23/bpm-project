@@ -9,22 +9,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background-color:#f9f9f9">
-    <div id="header">
-        <div id="header-content">
-            <h1>Crew 1 BPM Project</h1>
-            <a id ="home" href="/docs/index.html">home</a>
-            <a id="about-us" href="/docs/about-us.html">about us</a>
-        </div>
+<div id="header">
+    <div id="header-content">
+        <h1>Financial Five BPM Project</h1>
+        <a id ="home" href="/docs/index.html">home</a>
+        <a id="about-us" href="/docs/about-us.html">about us</a>
     </div>
+</div>
 
+<body style="background-color:#f9f9f9">
+    
     <div id="wrapper">
         <div id="map-content">
             <img id="map" src="images/map.png" alt="Map of the United States">
-            <div id="new-york" class="location">New York</div>
-            <div id="houston" class="location">Houston</div>
-            <div id="la" class="location">Los Angeles</div>
-            <div id="detroit" class="location">Detroit</div>
+            <div id="new-york" class="location" onclick = "window.open('http://127.0.0.1:5500/docs/newyork.html')">New York</div >
+            <div id="houston" class="location" onclick = "window.open('http://127.0.0.1:5500/docs/houston.html')">Houston</div>
+            <div id="la" class="location" onclick = "window.open('http://127.0.0.1:5500/docs/los-angeles.html')">Los Angeles</div>
+            <div id="detroit" class="location" onclick = "window.open('http://127.0.0.1:5500/docs/detroit.html')">Detroit</div>
         </div>
     </div>
     <script src="site.js" async defer></script>
