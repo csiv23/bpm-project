@@ -1,1 +1,3 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-cayman/
+url : http://csiv23.github.io 
+baseurl: /bpm-project
