@@ -6,6 +6,7 @@
 #header {
     position: fixed;
     top: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #header-content {
@@ -18,6 +19,7 @@
     z-index: 2;
     outline: solid;
     background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #wrapper {
@@ -71,6 +73,14 @@
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     font-size: 12px;
 }
+
+.location:hover{
+    filter: brightness(97%);
+}
+
+#header-content > *:hover {
+    filter: brightness(50%);
+  }
 
 #houston {
     top: 720px;
