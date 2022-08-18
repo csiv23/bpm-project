@@ -313,3 +313,32 @@ body {
     width: auto;
 }
 
+#ny-0 {
+    height: fit-content;
+    background-color: var(--color5);
+}
+
+#ny-places-images {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#ny-places-images > img {
+    height: 30vh;
+    width: auto;
+    border: solid black;
+}
+
+#ny-timeline1 {
+    height: fit-content;
+    background-color: var(--color4);
+}
+
+#places {
+    text-align: center;
+}
+#ny-timeline2 {
+    height: fit-content;
+    background-color: var(--color1);
+}
