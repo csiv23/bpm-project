@@ -20,6 +20,7 @@ body {
     max-width: 100%;
     overflow-x:hidden;
 
+
 }
 
 #header {
@@ -79,6 +80,9 @@ body {
     color: slateblue;
 }
 
+.references > a {
+    text-decoration: none;
+}
 #map-content {
     position: fixed;
     left: 50%;
@@ -135,6 +139,12 @@ body {
 }
 
 #genres {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#icons {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -244,4 +254,24 @@ body {
     height: 35vh;
     width: auto;
     border: solid black;
+}
+
+#icon-1 {
+    height: fit-content;
+    background-color: var(--color5);
+}
+
+#clifton {
+    height: 30vw;
+    width: auto;    
+}
+
+#icon-2 {
+    height: fit-content;
+    background-color: var(--color1);
+}
+
+#icon-3 {
+    height: fit-content;
+    background-color: var(--color2);
 }
