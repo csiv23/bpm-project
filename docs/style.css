@@ -3,15 +3,35 @@
     padding: 0;
 }
 
+:root {
+    --padding: 2%;
+    --color1: #CCD5AE;
+    --color2: #E9EDC9;
+    --color3: #FEFAE0;
+    --color4: #FAEDCD;
+    --color5: #D4A373;
+
+
+
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x:hidden;
+
+}
+
 #header {
     position: fixed;
     top: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
 #header-content {
     width: 100%;
-    height: 5vh;
+    height: 9vh;
     position: fixed;
     display: flex;
     justify-content: space-evenly;
@@ -20,13 +40,25 @@
     outline: solid;
     background-color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#header-content > a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#header-content > h1 > a {
+    text-decoration: none;
+    color: black;
+
 }
 
 #wrapper {
-    height: 85vh;
+    height: 85%;
     width: 100vw;
     margin-top: 5%;
-
     display: flex;
     flex-direction: column;
     gap: 2%;
@@ -74,13 +106,13 @@
     font-size: 12px;
 }
 
-.location:hover{
+.location:hover {
     filter: brightness(97%);
 }
 
-#header-content > *:hover {
+#header-content>*:hover {
     filter: brightness(50%);
-  }
+}
 
 #houston {
     top: 720px;
@@ -100,4 +132,116 @@
 #detroit {
     top: 410px;
     left: 710px;
+}
+
+#genres {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.genre {
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    height: 100vh;
+    background-color: slategray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+}
+
+.genre-text-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.genre-title {
+    font-size: 5vh;
+}
+
+.genre-text {
+    font-size: 2.5vh;
+    margin-top: 5vh;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+}
+
+.genre-image {
+    margin-top: 2%;
+    width: 50vw;
+}
+
+#lyrics-wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    grid-template-areas: 
+    "lyrics1 analysis1"
+    "lyrics2 analysis2"
+    "lyrics3 analysis3";
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.lyrics {
+    font-weight: 500;
+}
+
+#genre-1 {
+    background-color: var(--color1);
+}
+
+#genre-2 {
+    background-color: var(--color2);
+}
+
+#genre-3 {
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+
+    height: 45vh;
+    background-color: var(--color3);
+}
+
+#big-sean {
+    border: solid black;
+}
+
+#genre-4 {
+    height: fit-content;
+    background-color: var(--color4);
+}
+
+#genre-5 {
+    height: fit-content;
+    background-color: var(--color3);
+}
+
+#genre-6 {
+    height: fit-content;
+    background-color: var(--color1);
+}
+
+#stevie {
+    height: 35vh;
+    width: auto;
+    border: solid black;
+}
+
+#hooker {
+    height: 35vh;
+    width: auto;
+    border: solid black;
 }
