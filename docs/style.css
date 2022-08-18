@@ -18,7 +18,7 @@
 html,
 body {
     max-width: 100%;
-    overflow-x:hidden;
+    overflow-x: hidden;
 
 
 }
@@ -44,13 +44,13 @@ body {
 
 }
 
-#header-content > a {
+#header-content>a {
     text-decoration: none;
     color: black;
 }
 
 
-#header-content > h1 > a {
+#header-content>h1>a {
     text-decoration: none;
     color: black;
 
@@ -80,9 +80,10 @@ body {
     color: slateblue;
 }
 
-.references > a {
+.references>a {
     text-decoration: none;
 }
+
 #map-content {
     position: fixed;
     left: 50%;
@@ -195,10 +196,10 @@ body {
     grid-template-rows: auto auto auto;
     row-gap: 2rem;
     column-gap: 2rem;
-    grid-template-areas: 
-    "lyrics1 analysis1"
-    "lyrics2 analysis2"
-    "lyrics3 analysis3";
+    grid-template-areas:
+        "lyrics1 analysis1"
+        "lyrics2 analysis2"
+        "lyrics3 analysis3";
     padding-left: 20%;
     padding-right: 20%;
     text-align: center;
@@ -263,7 +264,7 @@ body {
 
 #clifton {
     height: 30vw;
-    width: auto;    
+    width: auto;
 }
 
 #icon-2 {
@@ -275,3 +276,40 @@ body {
     height: fit-content;
     background-color: var(--color2);
 }
+
+#nwa-0 {
+    height: 15vh;
+    text-align: center;
+    background-color: var(--color5);
+}
+
+#nwa-1 {
+    height: fit-content;
+    background-color: var(--color4);
+}
+
+#eazy-image {
+    width: 25vw;
+    height: auto;
+}
+
+#nwa-2 {
+    height: fit-content;
+    background-color: var(--color1);
+}
+
+#compton-image {
+    width: 35vw;
+    height: auto;
+}
+
+#nwa-3 {
+    height: fit-content;
+    background-color: var(--color2);
+}
+
+#mostwanted-image {
+    height: 70vh;
+    width: auto;
+}
+
