@@ -353,3 +353,35 @@ body {
     height: fit-content;
     background-color: var(--color4);
 }
+
+
+#about-1 {
+    height: fit-content;
+    background-color: var(--color4);
+}
+
+#about-2 {
+    height: fit-content;
+    background-color: var(--color5);
+}
+
+#graphs {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#graphs > img {
+    height: 56vh;
+    width: auto;
+}
+
+#about-3 {
+    height: fit-content;
+    background-color: var(--color1);
+}
+
+#about-4 {
+    height: fit-content;
+    background-color: var(--color2);
+}
