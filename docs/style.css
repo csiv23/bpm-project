@@ -186,7 +186,6 @@ body {
 }
 
 .genre-image {
-    margin-top: 2%;
     width: 50vw;
 }
 
@@ -212,6 +211,7 @@ body {
 
 #genre-1 {
     background-color: var(--color1);
+    height: fit-content;
 }
 
 #genre-2 {
@@ -219,10 +219,7 @@ body {
 }
 
 #genre-3 {
-    padding-top: 15vh;
-    padding-bottom: 5vh;
-
-    height: 45vh;
+    height:fit-content;
     background-color: var(--color3);
 }
 
