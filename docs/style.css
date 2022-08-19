@@ -342,3 +342,14 @@ body {
     height: fit-content;
     background-color: var(--color1);
 }
+
+#ny-timeline3 {
+    height: fit-content;
+    background-color: var(--color3);
+}
+
+
+#ny-timeline4 {
+    height: fit-content;
+    background-color: var(--color4);
+}
